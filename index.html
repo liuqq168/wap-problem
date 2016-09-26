@@ -1,0 +1,270 @@
+<!DOCTYPE html><html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="MobileOptimized" content="320">
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+<meta name="description" content="手机互动百科网">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+<meta content="IE=edge" http-equiv="X-UA-Compatible">
+<meta content="www.baike.com" name="author">
+<meta content="baike.com" name="copyright">
+<title>流行感冒_手机互动百科</title>
+<link type="text/css" rel="stylesheet" href="http://www.huimg.cn/wap/css/word-show160913.css">
+<style>
+.gg-express{position: relative;}
+.gg-express:before{content: '';display: block;height: 7px;background-color: #f6f6f6;border-top: 1px solid #E8E8E8;border-bottom: 1px solid #ffdab2;}
+.gg-express .h3tab{padding:0;}
+.gg-express .h3tab .btshow,.gg-express .h3tab .bthide{margin-top:14px;}
+.gg-express .h3tab .item{font-weight:100; color: #666;display: inline-block;font-size: 16px;padding:10px 0;width:30%;text-align: center;}
+.gg-express .h3tab .item:first-child{margin-left:5%;}
+.gg-express .h3tab .current{background-color:#eaeaea;}
+.gg-express .ggex-askfrom,.gg-express .ggex-asklist{height: 220px;overflow: hidden;}
+.gg-express .ggex-body{padding:0 15px;}
+.gg-express .ggex-askfrom label{padding-top:10px;display: block;}
+.gg-express .inpt{border:#d9d9d9 solid 1px;padding: 3px 10px;width:100%;box-sizing: border-box;outline:none;}
+.gg-express .error.inpt,.gg-express select.error{border-color:#ff8400;}
+.gg-express .ggex-asklist{position: relative;padding-bottom:10px;}
+.gg-express .ggex-asklist li{padding:7px 0;border-bottom:1px solid #E5E5E5;}
+.gg-express .ggex-asklist h4{font-weight:100;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;word-wrap: normal;word-wrap: break-word;word-break: break-all;padding-left:35px;margin-bottom: 8px;position: relative}
+.gg-express .ggex-asklist h4:before,.gg-express .ggex-asklist p:before{content: '问：';display: block;position: absolute;left:0;color: #ff8400;}
+.gg-express .ggex-asklist p{color: #999999;font-size: 14px;line-height: 1.2;padding-left:35px;position: relative}
+.gg-express .ggex-asklist p:before{content: '答：';color: green;}
+.gg-express .btn_allTD2{position: absolute;bottom:0;z-index: 1;left:15px;right:15px;}
+.gg-express .btn_allTD2:before{content: '';display: block;height: 10px;background-image: linear-gradient(rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 90%);position: absolute;top:-10px;left:0;right: 0;}
+.gg-express .keyword{padding-top:10px;font-size:14px;}
+.gg-express .keyword a{display: inline-block;margin-left:5px;}
+.gg-express .keyword em{float: right;line-height: 1.8;margin-top: -5px;}
+.gg-express .keyword em:after{content: '';display: inline-block;width:6px;height:6px;border-right:1px solid #ccc;border-bottom:1px solid #ccc;transform:rotate(45deg);margin-left:5px;vertical-align: 4px;}
+.gg-express .tips{padding-bottom:20px;padding-top:5px;font-size:14px;min-height: 20px;color: #07c;}
+.gg-express .tips.error{color: #ff8400;}
+.gg-express .btn-area{margin-top:10px;text-align:center;}
+.gg-express .btn-blue{width:120px;outline: none;font-size:14px;line-height:1.7;display: inline-block;}
+.ggep-form{padding-top:10px;padding-bottom:10px;}
+.ggep-form li{margin-top:15px;display: -webkit-box;display: -webkit-flex;display: flex;-webkit-box-align: center;-webkit-align-items: center;align-items: center;}
+.ggep-form li .w24{display:block;width:30%;line-height: 1.8;font-size: 14px;}
+.ggep-form li label{-webkit-box-flex: 1;-webkit-flex: 1; flex: 1;}
+.ggep-form .inpt{line-height: 1.8;font-size: 14px;padding:0 5px;}
+.ggep-form li.lb-w40 label{width:38%;}
+.ggep-form .btn-blue{margin-left:30%;}
+.ggep-form .btn-hui{background-color: #eee;border:#ccc solid 1px;padding:0 10px;line-height: 2;border-radius: 3px;display: inline-block;font-size: 12px;}
+.ggep-form li .btn-hui{display:block;margin-left:10px;}
+.gg-express select{-webkit-appearance: none;border:#d9d9d9 solid 1px;outline: 0;background-color: transparent;width: 100%;font-size:14px;font-family:inherit;height:27px;line-height: 1.8;position: relative;z-index: 1;padding-left: 15px;padding-right: 30px;}
+.cell-bd{position: relative;}
+/*弹窗*/
+.ggep-pop{position:fixed;left: 5%;right: 5%;padding:10px 15px;background: #fff;-webkit-box-shadow: 1px 1px 2px rgba(0,0,0,0.1),-1px -1px 2px rgba(0,0,0,0.1);box-shadow: 1px 1px 2px rgba(0,0,0,0.1),-1px -1px 2px rgba(0,0,0,0.1);z-index: 11;top:50px;}
+.ggep-pop .iclose{position: absolute;background-position: 10px -100px;height: 35px;top:-40px;right:0;}
+.ggep-dialog{position: fixed;z-index: 5000;width: 85%;top: 50%;left: 50%;-webkit-transform: translate(-50%, -50%);transform: translate(-50%, -50%);background-color: #FAFAFC;border-radius: 3px;overflow: hidden;padding:15px;box-sizing: border-box;}
+.ggep-dialog .pop-hd{padding-bottom:.5em;text-align: center;}
+.ggep-dialog .pop-ft{line-height: 42px;margin-top: 20px;font-size: 17px;display: -webkit-box;display: -webkit-flex;display: flex;text-align: center;}
+.ggep-dialog .pop-ft button{display: block;-webkit-box-flex: 1;-webkit-flex: 1;flex: 1;text-decoration: none;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
+/*产品列表*/
+.ggex-product{}
+.ggex-product .media-box{-webkit-tap-highlight-color: rgba(0, 0, 0, 0);padding-top:15px;display: block;}
+.ggex-product .aimg{margin-right: .8em;width: 60px;height: 60px;line-height: 60px;text-align: center;float:left;}
+.ggex-product .aimg img{width: 100%;max-height: 100%;vertical-align: top;}
+.ggex-product strong,.ggex-product .h22{display: block;word-wrap: normal;word-wrap: break-word;word-break: break-all;color: #666;font-size: 14px;line-height: 22px;}
+.ggex-product strong{font-weight: 400;font-size: 17px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;color: #000;}
+.ggep-ft{padding: 10px 30px 12px;display: block;color: #999;font-size: 14px;position: relative;text-align: right;}
+.ggep-ft:after,.cell-bd:after {content: " ";display: inline-block;-webkit-transform: rotate(45deg);transform: rotate(45deg);height: 6px;width: 6px;border-width: 2px 2px 0 0;border-color: #C7C7CC;border-style: solid;position: relative;top: -2px;position: absolute;right: 15px;top: 50%;margin-top: -5px;}
+.ggep-ft:before{content: " ";position: absolute;left: 0;top: 0;right:0;height: 1px;border-top: 1px solid #E5E5E5;color: #E5E5E5;-webkit-transform-origin: 0 0;transform-origin: 0 0;-webkit-transform: scaleY(0.5);transform: scaleY(0.5);}
+.ggep-actionsheet{position: fixed;left: 0;bottom: 0;-webkit-transform: translate(0, 100%);transform: translate(0, 100%);-webkit-backface-visibility: hidden;backface-visibility: hidden;z-index: 5000;width: 100%;background-color: #EFEFF4;-webkit-transition: -webkit-transform .3s;transition: -webkit-transform .3s;transition: transform .3s;transition: transform .3s, -webkit-transform .3s;}
+.ggep-actionsheet.hover{-webkit-transform: translate(0, 0);transform: translate(0, 0);}
+.ggep-actionsheet .sheet-list{}
+.ggep-actionsheet .sheet-list .item{position: relative;padding: 10px;font-size: 16px;border-top:1px solid #D9D9D9;background-color: #fff;}
+.actionsheet_cancel{margin-top: 6px;position: relative;padding: 10px 0;text-align: center;font-size: 16px;background-color: #fff;}
+.gg-ico{position: absolute;bottom:0;left:0;z-index: 2;font-size: 14px;-webkit-transform: scale(.8);transform: scale(.8);-webkit-transform-origin: left top;transform-origin: left top;background-color: #fff;}
+.gg-ico:before{content: '广告';font-size: 12px;color: #666;display: inline-block;padding:0 3px;}
+.ggex-product a:active,.ggep-actionsheet .sheet-list .item:active,.actionsheet_cancel:active {background-color: #ECECEC;}
+@media screen and (max-width:321px){
+    .gg-express .h3tab .item:first-child{margin-left:2%;}
+}
+</style>
+</head>
+<body>
+<div style="margin:0 auto; display:none;"><img src="http://a1.att.hudong.com/68/49/20200000013920144733495959670_s.jpg"></div>
+<div class="wrapper word-wrapper">
+<div id="header-word">
+<h3 class="bklogo"><img alt="手机互动百科网" src="http://www.huimg.cn/public/images/a-baikelogo.gif" width="100px"></h3>
+    <form >
+    <div class="inp_txt"><input id="top_search_ipt" onclick="document.getElementById('search_autocomplete').style.display='block';" type="text"  style="color:#B3B3B3"/></div>
+    <div class="head_r">
+    <span class="btn_menu" onclick="btn_menu()"></span>	
+    </div>
+    </form>	
+</div>
+<input type="hidden" name="hdAdBizId" id="hdAdBizId" value="流行感冒"><center><div id="hd_ad_doc_72" class="ad_xuanban" style="background:#ccc;display:none;"> <em class="iclose2 adclose" onclick="$('#hd_ad_doc_72').remove();"></em></div></center>
+<div class="word_info"><div class="wrap">
+<div id="unifyprompt" class="prompt" style="display:none"> </div>
+<input type="hidden" id="appFromUrlId" value=""><div class="baiketitl"><h1>流行感冒</h1></div>
+	<div class="polysemy" id="polysemyAll">
+		  
+	</div>
+	<br><div class="zy clearfix" id="custom_zy">
+<div class="img"><a href="#" alt="" onclick="document.getElementById('img-view').style.display='block';"><img src="http://a1.att.hudong.com/68/49/20200000013920144733495959670_s.jpg"><em id="albumLength"></em></a></div>
+<p><p>流行性感冒(流感)是一种由病毒引致的疾病，传染性极高。 流感由不同类型的病毒引起，已知的流感有三种类型：甲型、乙型及丙型， 其中以甲型较为常见。在香港最常见的是两种甲型流感(H1N1及H3N2)。 流感会不时变种（基因改变）而衍生新品种，导致流感广泛传播，因此当局须定期重新研制流感疫苗。 在香港，流感肆虐而病例最多的月份是一至三月和七、八月。</p></p>
+			<p align="right" class="pd10"><a href="javascript:;" class="gray9"  onclick="share()"><i class="ico-share">&nbsp;</i>分享</a></p>
+			</div>
+<!--adlink直通车-->
+<div class="gg-express">
+	<h3 class="h3titl h3tab">百科问答 <strong class="item current">我要提问</strong><strong class="item">相关问题</strong> <em class="packup">&nbsp;</em><em class="btshow" style=""> </em></h3>
+	<div class="ggex-body ggex-askfrom" style="display:;">
+		<label><textarea class="inpt" name="" rows="5" cols="10" placeholder="问题描述，不少于100字" ></textarea></label>
+		<div class="keyword"><em class="gray9">更多</em>相关标签：<a href="">感冒</a><a href="">感冒</a></div>
+		<div class="btn-area"><button class="btn-blue" type="button">提交</button></div>
+		<div class="tips"> </div>
+		<div class="gg-ico"><a href="">sougou.com</a></div>
+	</div>
+	<div class="ggex-body ggex-asklist" style="display:none;height:;">
+		<ul>
+			<li><h4>头痛有几种症状？</h4><p>Lorem ipsum dolor sit amet,consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.Lorem ipsum dolor sit amet,consectetur adipiscing elit. Aenean euismod bibendum</p></li>
+			<li><h4>头痛有几种症状？</h4><p>Lorem ipsum dolor sit amet,consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.Lorem ipsum dolor sit amet,consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p></li>
+		</ul>
+		<em class="btn_allTD2 gray7">查看完整列表</em>
+	</div>
+<!--弹窗-->
+	<em class="fixed_bg" style="display:none;"></em>
+	<div class="ggep-pop" style="display:none;"><p class="tip">您好，回答问题需要您提交下列相关信息，方便我们及时联系您。</p> <ul class="ggep-form"> <li><span class="w24">昵称：</span><label><input type="text" class="inpt" value=""></label></li> <li class="lb-w40"><span class="w24">手机号码：</span><label><input type="text" class="inpt" value=""></label><em class="btn-hui">获取验证码</em></li> <li><span class="w24">输入验证码：</span><label><input type="text" class="inpt" value=""></label></li><li><button class="btn-blue" id="">提交</button></li> </ul> <i class="iclose"></i> </div>
+	<div class="ggep-dialog" style="display:none;"><div class="pop-hd"><strong>提交成功！</strong></div><p class="gray7">感谢您的提问，我们会通过短信的方式反馈您的问题答案，请注意查收！</p><div class="pop-ft"><button class="btn-blue">确定</button></div></div>
+</div>
+<div class="gg-express">
+	<!--link rel="stylesheet" href="../../huimg-n/hudong/entry/widget/gg-express/css/wap.css">-->
+	<h3 class="h3titl">相关产品<em class="packup">&nbsp;</em><em class="btshow" style=""> </em></h3>
+	<div class="ggex-body ggex-product">
+		<a href="" class="media-box"><span class="aimg"><img src="http://a1.att.hudong.com/68/49/20200000013920144733495959670_140.jpg" alt=""></span><strong>产品名称</strong><span class="h22">报价：123459</span><span class="h22">功能：18字功能介绍</span></a>
+		<a href="" class="media-box"><span class="aimg"><img src="http://a1.att.hudong.com/68/49/20200000013920144733495959670_140.jpg" alt=""></span><strong>产品名称</strong><span class="h22">报价：123459</span><span class="h22">功能：18字功能介绍</span></a>
+		<a href="" class="media-box"><span class="aimg"><img src="http://a1.att.hudong.com/68/49/20200000013920144733495959670_140.jpg" alt=""></span><strong>产品名称</strong><span class="h22">报价：123459</span><span class="h22">功能：18字功能介绍</span></a>
+		<a href="" class="ggep-ft">查看更多</a>
+	</div>
+	<div class="gg-ico"><a href="">sougou.com</a></div>
+</div>
+<div class="gg-express">
+	<!--link rel="stylesheet" href="../../huimg-n/hudong/entry/widget/gg-express/css/wap.css">-->
+	<h3 class="h3titl">百科直通车 <span class="f16">| 求购</span><em class="packup">&nbsp;</em><em class="btshow" style=""> </em></h3>
+	<div class="ggex-body">
+		 <ul class="ggep-form"> <li><span class="w24">产品品牌：</span><label class="cell-bd"><select ><option>请选择</option><option>江中制药</option><option>贵州百灵制药</option><option>云南白药</option></select></label></li> <li><span class="w24">型号：</span><label class="cell-bd"><select class="error"><option>请选择</option><option>感冒冲剂</option><option>999感冒颗粒</option><option>感冒消炎药</option></select></label></li> <li><span class="w24">购买类型：</span><label class="cell-bd"><select><option>请选择</option><option>药店零售</option><option>医院处方</option></select></label></li> <li><span class="w24">所在地：</span><label class="cell-bd"><select><option>请选择</option><option>北京</option><option>河北</option></select></label></li> <li><span class="w24">您的称呼：</span><label><input type="text" class="inpt" value=""></label></li><li><span class="w24">联系方式：</span><label><input type="text" class="inpt" value=""></label></li><li><button class="btn-blue" id="">发布求购信息</button></li> </ul>
+		 <div class="tips error">型号输入不能为空</div>
+	</div>
+	<div class="gg-ico"><a href="">sougou.com</a></div>
+</div>
+<div class="gg-express">
+	<!--link rel="stylesheet" href="../../huimg-n/hudong/entry/widget/gg-express/css/wap.css">-->
+	<h3 class="h3titl">百科直通车 <span class="f16">| 加盟</span><em class="packup">&nbsp;</em><em class="btshow" style=""> </em></h3>
+	<div class="ggex-body">
+		 <ul class="ggep-form"> <li><span class="w24">咨询问题：</span><label class="cell-bd"><input type="text" class="inpt" value=""></label></li> <li><span class="w24">您的称呼：</span><label><input type="text" class="inpt" value=""></label></li><li><span class="w24">联系方式：</span><label><input type="text" class="inpt" value=""></label></li> <li><span class="w24">回访时间：</span><label class="cell-bd"><select><option>请选择</option><option>随时联系我</option><option>工作时间联系我</option><option>非工作时间联系我</option></select></label></li><li><button class="btn-blue" id="">免费咨询</button></li> </ul>
+		 <div class="tips">信息提交成功，商家会尽快安排顾问与您沟通！</div>
+	</div>
+<!--弹窗-->
+	<em class="fixed_bg" style="display:none;"></em>
+	<div class="ggep-actionsheet">
+		<ul class="sheet-list">
+			<li class="item">示例选项列表</li>
+			<li class="item">示例选项列表</li>
+			<li class="item">阿克苏的房间暗示的反馈静安寺多发的身份黄果树瀑布嘉园东奔西走 </li>
+			<li class="item">示例选项列表</li>
+		</ul>
+        <div class="actionsheet_cancel">取消</div>
+	</div>
+	<div class="gg-ico"><a href="">sougou.com</a></div>
+</div>
+
+ <div id="content">
+<span id="1" class="h2_line"><em class="btshow" style="" id="1em"> </em>发病症状</span><div id="2" style="display:"><p>流感是 呼吸道的急性疾病，症状包括发烧、头痛、肌肉疼痛、流鼻水、咳嗽及 喉咙痛，通常病情较轻微。</p></div>
+<span id="3" class="h2_line" style="display:"><em class="btshow" style="" id="3em"> </em>传播方式</span><div id="10" style="display:"><h3>传染源</h3><p>病人是主要传染源，自潜伏期末即可传染，病初2～3日传染性最强，体温正常后很少带毒，排毒时间可长达病后7天。病毒存在于病人的鼻涕、口涎、痰液中，并随咳嗽、喷嚏排出体外。由于部分免疫，感染后可不发病，成为隐性感染。带毒时间虽短，但在人群中易引起传播，迄今尚未证实有长期带毒者。</p><h3>传播途径</h3><p>主要通过空气飞沫传播，病毒存在于病人或隐性感染者的呼吸道分泌物中，通过说话、咳嗽或喷嚏等方式散播至空气中，并保持30分钟，易感者吸入后即能感染。传播速度取决于人群的拥挤程度。通过污染食具或玩具的接触，也可起传播作用。</p><h3>易感人群</h3><p>人群对流感病毒普遍易感，与年龄、性别、职业等都无关。抗体于感染后1周出现，2～3 周达高峰，1～2个月后开始下降，1年左右降至最低水平，抗体存在于血液和鼻分泌物中，但鼻分泌物的抗体仅为血液中的5%左右。流感病毒三个型别之间无交叉免疫， 感染后免疫维持时间不长，据现场观察，感染5个月后虽血中有抗体存在，但仍能再资助感染同一型病毒。呼吸道产生分泌型抗体，能阻止病毒的侵入，但当局部粘膜上皮细胞脱落后，即失去其保护作用，故局部抗体比血液中抗体更为重要。</p></div>
+
+
+<div class="foot" style="">
+<a idenattr="rAglxZQhje38AegAC" isuserlink="1" class="gray7" href="http://i.baike.com/profile.do?useriden=rAglxZQhje38AegAC">蝴蝶洁</a>创建，
+<a idenattr="tAQREAwRXWkNJXQEG" isuserlink="1" class="gray7" href="http://i.baike.com/profile.do?useriden=tAQREAwRXWkNJXQEG">leyongmin</a>、<a idenattr="icFpAUWBxBWdCUUV1" isuserlink="1" class="gray7" href="http://i.baike.com/profile.do?useriden=icFpAUWBxBWdCUUV1">hrsky</a>、<a idenattr="icFpAUWBxBWZKV0Jz" isuserlink="1" class="gray7" href="http://i.baike.com/profile.do?useriden=icFpAUWBxBWZKV0Jz">nj_postboy</a>、<a idenattr="ddncDBVhVAHJfCnB2" isuserlink="1" class="gray7" href="http://i.baike.com/profile.do?useriden=ddncDBVhVAHJfCnB2">傻叉叉</a>、<a idenattr="pGVpWQVlYdgxdYAsd" isuserlink="1" class="gray7" href="http://i.baike.com/profile.do?useriden=pGVpWQVlYdgxdYAsd">晴雪</a>等参与编辑。
+<br>
+互动百科的词条（含所附图片）系由网友上传，如果涉嫌侵权，请与客服联系，我们将按照法律之相关规定及时进行处理。如需转载，请注明来源于www.baike.com。</div>
+</div></div>
+</div>
+
+<aside class="comments" id="comments">
+  <h3 class="h3titl"><em class="btshow" style="" id="45em"> </em>热门评论</h3>
+<ul class="list" id="hot-comment">
+</ul>
+<a class="btn_allTD2 gray7">查看更多评论</a>
+</aside>
+<div class="tip-pop" id="comment_tip_pop" style="display:none;">
+    <span class="baike-logo"></span>
+    <span>系统繁忙!!!</span>
+</div>
+
+
+
+<input type="hidden" id="docid" value="300000424199">
+
+
+
+
+
+<div class="bk-weixin">
+	<div class="guanzhu">
+		<img src="http://static.hudong.com/55/12/26100000006141139538128888041.gif"/><p>关注百科官方微信：<br/>hudong_baike<br/>第一时间获取更多百科资讯</p>
+		<em class="btn-blue" onclick="ajax_post()">保存二维码</em>
+	</div>
+</div>
+
+<footer style="display:;"><div id="hd_ad_doc_73" class="ad_xuanban"> </div>
+
+<div class="search">
+  			<form class="search-form" onSubmit="return false;">
+				<input type="text" class="inp_text" value=""  id="q_bottom"/>
+				<input type="button" class="input-button" onclick="var keyword=document.getElementById('q_bottom').value.replace(/^\s*|\s*$/g,'');if(keyword!=''){location='http://so.baike.com/m/doc/'+encodeURIComponent(keyword)+'&prd=so_m';}return false;" value="搜索"/>
+			</form>
+</div>
+
+<input type="hidden" id="ad_load_flag" value="0">
+ 
+<div class="full-footer">
+<p><a href="javascript:;" onclick="document.getElementById('fbg').style.display='block';document.getElementById('feadback-con').style.display='block';canScroll=0;" class="blue"><i class="ifeedback">&nbsp;</i>用户反馈</a></p>
+  <p>© 2016 互动百科版权所有</p>
+</div>
+</footer>
+</div>
+
+<div class="bot-fixed" id="bot-fixed">
+  <a class="inpt" href="javascript:;" onclick="document.getElementById('fbg').style.display='block';document.getElementById('comment-con').style.display='block'; canScroll=0;">匿名评论</a>
+  <i class="ico-comment"></i><i class="ico-share2" onclick="share()">&nbsp;</i>
+</div>
+
+<input type="hidden" name="doctitle" id="doctitle" value="流行感冒">
+
+<script>
+	//adlink直通车交互展示js
+    document.querySelectorAll('.h3tab .item')[1].onclick=function(){
+        this.className = 'item current';
+        this.previousSibling.className ='item';
+        document.querySelector('.ggex-askfrom').style.display = 'none';
+        document.querySelector('.ggex-asklist').style.display = 'block';
+    }
+     document.querySelector('.ggex-askfrom .btn-blue').onclick=function(){
+         document.querySelector('.fixed_bg').style.display = 'block';
+         document.querySelector('.ggep-pop').style.display = 'block';
+     }
+     document.querySelector('.ggep-pop .btn-blue').onclick=function(){
+         document.querySelector('.ggep-pop').style.display = 'none';
+         document.querySelector('.ggep-dialog').style.display = 'block';
+     }
+     document.querySelector('.ggep-dialog .btn-blue').onclick=function(){
+         document.querySelector('.fixed_bg').style.display = 'none';
+         document.querySelector('.ggep-dialog').style.display = 'none';
+     }
+     document.querySelector('.ggex-asklist .btn_allTD2').onclick=function(){
+         document.querySelector('.ggex-asklist').style.height = 'auto';
+		 document.querySelector('.ggex-asklist .btn_allTD2').style.display = 'none';
+     }
+     document.querySelectorAll('.ggep-form .cell-bd')[4].onclick=function(){
+         document.querySelector('.fixed_bg').style.display = 'block';
+         document.querySelector('.ggep-actionsheet').className = 'ggep-actionsheet hover';
+     }
+     document.querySelector('.ggep-actionsheet .actionsheet_cancel').onclick=function(){
+         document.querySelector('.fixed_bg').style.display = 'none';
+         document.querySelector('.ggep-actionsheet').className = 'ggep-actionsheet';
+     }
+</script>
+
+</body>
+</html>
